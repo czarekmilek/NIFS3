@@ -55,6 +55,7 @@ with open('./temp/x_val.txt') as x_file, open('./temp/y_val.txt') as y_file, ope
         
         u_vals = [round(i / (M-1), 3) for i in range(M)]
         # we can increase/decrease accuracy by adjusting M manually ->
-        # -> change the segment * 4th line to different list of numbers limited by chosen M
+        # -> change the (segment number * 4th) line to a different list of numbers limited by chosen M
+        # (generate the list in external code, then replace that line with it)
         
         dane_file.write(str(u_vals) + '\n')
