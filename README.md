@@ -1,12 +1,15 @@
 # Cubic Spline Interpolation (NIFS3)
 
 Original image:
+
 ![image](./in/image2.png)
 
 Image with points, chosen by the user:
+
 ![image](example_pinpoint.png)
 
 Recreated image:
+
 ![image](./out/dane.png)
 
 ## program.py
@@ -31,6 +34,6 @@ Any image can be used, provided the path to it is set correctly. Same goes for t
 
 The most accurate data was achieved in "**dane.txt**" file (it was manually modified after its creation), other are either less accurate or lacking in other areas.
 
-If a new data file is desired, we can adjust the correct line in **points.py** (by default a new file called "**data_new.txt**" will be created, where data will be stored)
+If a new data file is desired, we can adjust the correct line in **points.py** (by default a new file called "**data_new.txt**" will be created, where data will be stored).
 
 > The provided images and data are just an example of how those can look like. All data in "dane" folder was created using **points.py** script, which used images in "in" folder. 
